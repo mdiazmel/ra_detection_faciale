@@ -94,7 +94,7 @@ plt.imshow(gray_img, cmap='gray')
 
 # Part 5. À faire
 
-Lire tutoriels de Python et d'OpenCV (ici)[http://docs.opencv.org/3.1.0/d0/de3/tutorial_py_intro.html]
+Lire tutoriels de Python et d'OpenCV [ici](http://docs.opencv.org/3.1.0/d0/de3/tutorial_py_intro.html)
 
 
 
