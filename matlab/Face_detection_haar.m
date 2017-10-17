@@ -4,7 +4,9 @@ I=imread(input('...'));
 
 I_gris=rgb2gray(I);
 
-detector = vision.CascadeObjectDetector('FrontalFaceCART','MinSize', [100 100]);
+[a b]=size(I(:,:,1));
+
+detector = vision.CascadeObjectDetector('FrontalFaceLBP', 'MinSize', [floor(a/10) floor(b/10)]);
 
 bboxes=step(detector, I_gris);
 [m,n]=size(bboxes);
