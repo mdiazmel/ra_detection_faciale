@@ -2,7 +2,7 @@ function face_detec(d)
 
 for j=1:length(d)
 
-    I=imread([d(j).folder '\' d(j).name]);
+    I=imread([d(j).folder '/' d(j).name]);
     
     I_gris=rgb2gray(I);
 
